@@ -38,15 +38,15 @@ class _HomePageState extends State<HomePage> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Text("Instagram"),
+          title: Text("appsolute"),
           actions: <Widget>[
             IconButton(
-              icon: Icon(Icons.favorite),
+              icon: Icon(Icons.dangerous),
               onPressed: (){
               },
             ),
             IconButton(
-              icon: Icon(Icons.message),
+              icon: Icon(Icons.cabin),
               onPressed: (){
               },
             )
@@ -79,23 +79,23 @@ class _HomePageState extends State<HomePage> {
       },
       items: [
         BottomNavigationBarItem(
-          icon: Icon(Icons.home),
+          icon: Icon(Icons.hail),
           label: "home",
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.search),
+          icon: Icon(Icons.leak_add_outlined),
           label: "search",
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.add_box),
+          icon: Icon(Icons.desktop_access_disabled),
           label: "add_box",
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.favorite),
+          icon: Icon(Icons.kayaking_outlined),
           label: "favorite",
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.message),
+          icon: Icon(Icons.kayaking_sharp),
           label: "message",
         ),
       ],
